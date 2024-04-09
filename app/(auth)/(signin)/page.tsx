@@ -5,8 +5,8 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Properti",
-  description: "Properti",
+  title: "Authentication",
+  description: "Authentication forms built using the components.",
 };
 
 export default function AuthenticationPage() {
@@ -36,15 +36,16 @@ export default function AuthenticationPage() {
           >
             <path d="M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3" />
           </svg>
-          Properti
+          Logo
         </div>
         <div className="relative z-20 mt-auto">
           <blockquote className="space-y-2">
             <p className="text-lg">
-              &ldquo;We get it - there’s no such thing as a slow day in property
-              management.&rdquo;
+              &ldquo;This library has saved me countless hours of work and
+              helped me deliver stunning designs to my clients faster than ever
+              before.&rdquo;
             </p>
-            {/* <footer className="text-sm">Unknown</footer> */}
+            <footer className="text-sm">Sofia Davis</footer>
           </blockquote>
         </div>
       </div>
@@ -74,7 +75,7 @@ export default function AuthenticationPage() {
             >
               Privacy Policy
             </Link>
-            <div className=""></div>
+            .
           </p>
         </div>
       </div>
